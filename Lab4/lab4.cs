@@ -1,7 +1,7 @@
 using System;
 				
 public class MyClassA{
-	int a, b;
+	public int a, b;
 	public MyClassA(int a, int b){
 		this.a = a;
 		this.b = b;
@@ -25,8 +25,8 @@ public class MyClassA{
 
 
 public class MyClassB: MyClassA{
-	int d;
-	float[] array;
+	public int d;
+	private int[] array;
 	int[] array2 = new int[] {1, 2, 3, 4, 5};
 	
 	public MyClassB(int a, int b, int d): base(a, b){
@@ -37,8 +37,8 @@ public class MyClassB: MyClassA{
 	}
 	public MyClassB(int a): this(a, 2, -7){
 		this.d = -7;
-		array = new float[A];
-		for(int i = 0; i < A; i++){
+		array = new int[a];
+		for(int i = 0; i < a; i++){
 			array[i] = C3 * i;
 		}
 	}
@@ -54,16 +54,20 @@ public class MyClassB: MyClassA{
 			return d;
 		}
 	}
-	public float[] Array{
+	public int[] Array{
 		get { return array; }
 	}
 	public int[] Array2{
 		get { return array2; }
 	}
 	
-	public float this[int index]{
-	    get => array[index];
-	    set => array[index] = value;
+	public int this[int index]{
+	    get{return array[(int)index];}
+	    set{array[(int)index] = value;}
+	}
+	public int this[float index]{
+	    get{return array2[(int)index];}
+	    set{array2[(int)index] = value;}
 	}
 }
 
@@ -71,17 +75,21 @@ public class MyClassC<T>{
     public static string message = "This is static";
     private T[] arr = new T[3];
     public T this[int index]{
-	    get => arr[index];
-	    set => arr[index] = value;
+	   get{return arr[(int)index];}
+	    set{arr[(int)index] = value;}
 	}
 }
 
 
 public class Program{
-	public static void Main()
-	{
-		MyClassB ObjectB = new MyClassB(7);
+	public static void Main(){
+		MyClassB ObjectB = new MyClassB(5);
+		Console.WriteLine("Массив 1:");
 		for (int i=0; i < ObjectB.Array.Length; i++){
+		    Console.WriteLine(ObjectB[i]);
+		}
+		Console.WriteLine("Массив 2:");
+		for (float i=0; i < ObjectB.Array2.Length; i++){
 		    Console.WriteLine(ObjectB[i]);
 		}
 		MyClassC<string> str_obj = new MyClassC<string>();
