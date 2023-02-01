@@ -1,0 +1,15 @@
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\bin\Debug\Lab7ex1.exe.config
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\bin\Debug\Lab7ex1.exe
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\bin\Debug\Lab7ex1.pdb
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.csproj.AssemblyReference.cache
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.csproj.SuggestedBindingRedirects.cache
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.Form1.resources
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.Properties.Resources.resources
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.csproj.GenerateResource.cache
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.csproj.CoreCompileInputs.cache
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.exe
+C:\Users\avoev\source\repos\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.pdb
+C:\Users\avoev\Downloads\Programming_labs_2course-main\Programming_labs_2course-main\Lab_7\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.csproj.AssemblyReference.cache
+C:\Users\avoev\Downloads\Programming_labs_2course-main\Programming_labs_2course-main\Lab_7\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.csproj.SuggestedBindingRedirects.cache
+C:\Users\avoev\Downloads\Programming_labs_2course-main\Programming_labs_2course-main\Lab_7\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.Form1.resources
+C:\Users\avoev\Downloads\Programming_labs_2course-main\Programming_labs_2course-main\Lab_7\Lab7ex1\Lab7ex1\obj\Debug\Lab7ex1.csproj.GenerateResource.cache
